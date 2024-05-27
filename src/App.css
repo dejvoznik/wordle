@@ -1,0 +1,44 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#game-board {
+  display: grid;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.tile {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ddd;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: gray;
+}
+
+.present {
+  background-color: yellow;
+  color: black;
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.absent {
+  color: black;
+}
